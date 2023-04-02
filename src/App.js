@@ -23,7 +23,7 @@ function App() {
 
 	return (
 		<>
-      <Navbar />
+      <Navbar /> 
 			<Coins coins={coins}/>
 		</>
 	);
