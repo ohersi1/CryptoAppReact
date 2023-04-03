@@ -20,7 +20,7 @@
 }
 
 .coin-row {
-	 display: flex;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #26272b;
@@ -32,7 +32,7 @@
 
 .coin-row:hover {
 	transform: scale(1.04);
-	transition: .3s ease-in-out;
+	transition: 0.3s ease-in-out;
 	cursor: pointer;
 }
 
@@ -40,6 +40,11 @@ img {
 	height: 40px;
 	margin-right: 8px;
 	width: auto;
+}
+
+.img-symbol {
+	display: flex;
+	align-items: center;
 }
 
 @media screen and (max-width: 720px) {
