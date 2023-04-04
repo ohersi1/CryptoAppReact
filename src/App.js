@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Coin from "./routes/Coin";
 
+
 function App() {
 	const [coins, setCoins] = useState([]);
 	const url =
